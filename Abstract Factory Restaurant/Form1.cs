@@ -60,6 +60,26 @@ namespace Abstract_Factory_Restaurant
                 pictureBox2.Image = Properties.Resources.horchata;
                 pictureBox3.Image = Properties.Resources.churro;
             }
+            else if (comboBox1.SelectedIndex == 3)
+            {
+                fabrica = new RestauranteItalianoFactory();
+                textBox2.ForeColor = Color.DarkGreen;
+                textBox2.Text = "Restaurante Italiano";
+
+                pictureBox1.Image = Properties.Resources.pizza;
+                pictureBox2.Image = Properties.Resources.espresso;
+                pictureBox3.Image = Properties.Resources.tiramisu;
+            }
+            else if (comboBox1.SelectedIndex == 4)
+            {
+                fabrica = new RestauranteGriegoFactory();
+                textBox2.ForeColor = Color.LightBlue;
+                textBox2.Text = "Restaurante Griego";
+
+                pictureBox1.Image = Properties.Resources.gyro;
+                pictureBox2.Image = Properties.Resources.cafe;
+                pictureBox3.Image = Properties.Resources.Baklava_Plato_Griego;
+            }
 
             if (fabrica != null)
             {

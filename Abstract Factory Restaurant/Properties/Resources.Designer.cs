@@ -83,6 +83,16 @@ namespace Abstract_Factory_Restaurant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bisque_gradient_color_concrete_wall_cement_texture_background_photo {
+            get {
+                object obj = ResourceManager.GetObject("bisque-gradient-color-concrete-wall-cement-texture-background-photo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap cafe {
             get {
                 object obj = ResourceManager.GetObject("cafe", resourceCulture);
@@ -153,9 +163,29 @@ namespace Abstract_Factory_Restaurant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pexels_pixabay_301378 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-pixabay-301378", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pizza {
             get {
                 object obj = ResourceManager.GetObject("pizza", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PonyBoat_Website_Headers_Menu_78__converted_from_webp {
+            get {
+                object obj = ResourceManager.GetObject("PonyBoat_Website_Headers_Menu[78]-converted-from-webp", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

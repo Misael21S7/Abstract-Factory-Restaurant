@@ -137,5 +137,14 @@
   <ItemGroup>
     <None Include="Resources\churro.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PonyBoat_Website_Headers_Menu[78]-converted-from-webp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bisque-gradient-color-concrete-wall-cement-texture-background-photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-pixabay-301378.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
