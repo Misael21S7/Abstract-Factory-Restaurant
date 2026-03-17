@@ -76,5 +76,16 @@ namespace Abstract_Factory_Restaurant
                 pictureBox3.Visible = true;
             }
         }
+
+        // Handler required by the designer: comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Minimal, safe implementation: reflect selected item in the results textbox if present.
+            if (comboBox1 != null && textBox1 != null)
+            {
+                var selected = comboBox1.SelectedItem;
+                textBox1.Text = selected != null ? selected.ToString() : string.Empty;
+            }
+        }
     }
 }
