@@ -51,11 +51,11 @@ namespace Abstract_Factory_Restaurant
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Crimson;
-            this.label1.Font = new System.Drawing.Font("Segoe Print", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Segoe Print", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
             this.label1.Location = new System.Drawing.Point(391, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 23);
+            this.label1.Size = new System.Drawing.Size(204, 30);
             this.label1.TabIndex = 0;
             this.label1.Text = "Seleccione una cocina:";
             // 
@@ -63,7 +63,8 @@ namespace Abstract_Factory_Restaurant
             // 
             this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.comboBox1.BackColor = System.Drawing.Color.Crimson;
-            this.comboBox1.Font = new System.Drawing.Font("Segoe Print", 9F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.Font = new System.Drawing.Font("Segoe Print", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.Color.White;
             this.comboBox1.Items.AddRange(new object[] {
             "~~~~~~~  Comida China  ~~~~~~~",
             "~~~~~~~  Comida Japonesa  ~~~~~~~",
@@ -72,7 +73,7 @@ namespace Abstract_Factory_Restaurant
             "~~~~~~~  Comida Griega  ~~~~~~~"});
             this.comboBox1.Location = new System.Drawing.Point(585, 36);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(279, 29);
+            this.comboBox1.Size = new System.Drawing.Size(279, 38);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -104,7 +105,7 @@ namespace Abstract_Factory_Restaurant
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
             this.label6.Location = new System.Drawing.Point(527, 5);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(409, 28);
+            this.label6.Size = new System.Drawing.Size(511, 35);
             this.label6.TabIndex = 12;
             this.label6.Text = "\"Disfruta de nuestra amplia variedad de cocinas!\"";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -152,7 +153,7 @@ namespace Abstract_Factory_Restaurant
             this.textBox1.Location = new System.Drawing.Point(106, 41);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(1118, 38);
+            this.textBox1.Size = new System.Drawing.Size(1118, 47);
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "~~~~~~~~~~~~  Menu  ~~~~~~~~~~~~";
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -166,7 +167,7 @@ namespace Abstract_Factory_Restaurant
             this.textBox3.Location = new System.Drawing.Point(199, 480);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(100, 29);
+            this.textBox3.Size = new System.Drawing.Size(100, 36);
             this.textBox3.TabIndex = 5;
             // 
             // textBox4
@@ -178,7 +179,7 @@ namespace Abstract_Factory_Restaurant
             this.textBox4.Location = new System.Drawing.Point(628, 480);
             this.textBox4.Name = "textBox4";
             this.textBox4.ReadOnly = true;
-            this.textBox4.Size = new System.Drawing.Size(94, 29);
+            this.textBox4.Size = new System.Drawing.Size(94, 36);
             this.textBox4.TabIndex = 6;
             // 
             // textBox5
@@ -190,7 +191,7 @@ namespace Abstract_Factory_Restaurant
             this.textBox5.Location = new System.Drawing.Point(1045, 480);
             this.textBox5.Name = "textBox5";
             this.textBox5.ReadOnly = true;
-            this.textBox5.Size = new System.Drawing.Size(100, 29);
+            this.textBox5.Size = new System.Drawing.Size(100, 36);
             this.textBox5.TabIndex = 7;
             // 
             // label2
@@ -262,7 +263,7 @@ namespace Abstract_Factory_Restaurant
             this.textBox2.Location = new System.Drawing.Point(0, 674);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(193, 20);
+            this.textBox2.Size = new System.Drawing.Size(193, 22);
             this.textBox2.TabIndex = 4;
             this.textBox2.Text = "Menu";
             this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
